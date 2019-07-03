@@ -1,61 +1,19 @@
-
-.head
-    {
-  background-color:darkslateblue;
-    }
-
-h1,h3{
-  -webkit-column-rule: #fff;
-  -moz-column-rule: #fff;
-  column-rule: #fff;
-  font-family: serif;
-}
-
-h2{
-  color: rgb(30,30,30);
-
-}
-
-.square{
-  width: 100px;
-  height:100px;
-  background-color:blue;
-  margin:auto;
-}
-
-#circle
-  {
-    color: darkred;
-    font-size: 40px;
-  }
-html{
-  font-family: "Times new roman",serif,sans-serif;
-}
-body
-{
-  /*background-image: url(https://webgradients.com/public/webgradients_png/047%20Fly%20High.png);
-  background-repeat: no-repeat;
-
-  background-size: cover;
-  */
-  background-color:inherit;
-}
-
-.borderimage
-{
-  border: 5px dotted green;
-  width: 200px;
-  height:200px;
-
+.container-fluid {
+  background-color: #6c2EE9;
+  height: 5rem;
 }
 
 
+.row{
+background-color: #ff9232;
+height: 4.7rem;
 
-ul li
-{
-  color: white;
+
 }
 
-ul > li{
-  color:red;
+[class*="col-"]{
+background-color: #00c3AA;
+height: 4.2;
+border: 2px solid rgba(0,0,0,0.3);
+
 }
